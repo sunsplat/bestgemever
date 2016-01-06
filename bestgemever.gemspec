@@ -6,7 +6,7 @@ require 'bestgemever/version'
 Gem::Specification.new do |spec|
   spec.name          = "bestgemever"
   spec.version       = Bestgemever::VERSION
-  spec.authors       = ["Thomas Lo"]
+  spec.authors       = ["Thomas Lo", "Ellen Sun"]
   spec.email         = ["wagaiznogoud@gmail.com"]
 
   spec.summary       = %q{A simple Rock Paper Scissors game.}
