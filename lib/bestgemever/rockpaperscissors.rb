@@ -35,12 +35,13 @@ module Bestgemever
 
 		def player_input
 			puts "What is your choice?"
-			@player = gets.chomp
+			choice = gets.chomp
 
-			until OPTIONS.include? @player
+			until OPTIONS.include? choice
 	      puts "Please enter one of the following: rock, paper, scissors"
-	      @player = gets.chomp
+	      choice = gets.chomp
 	    end
+	    choice
 		end
 
 
@@ -48,7 +49,6 @@ module Bestgemever
 			@computer = ["rock", "paper", "scissors"].sample
 			puts "Computer: #{@computer}"
 		end
-
 
 
 		def match(player, computer)
