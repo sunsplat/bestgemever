@@ -23,7 +23,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To play the game, start irb and run:
+```ruby
+$ require 'bestgemever'
+$ game = Bestgameever::RockPaperScissors.new
+$ game.play_game
+```
 
 ## Development
 
